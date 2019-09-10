@@ -1177,6 +1177,16 @@ pre .javascript .function {
 .use-motion .collection-header {
   opacity: 0;
 }
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+}
+.post-body p a:hover {
+  color: #fc6423;
+  border-bottom: none;
+  border-bottom: 1px solid #fc6423;
+}
 .post-button {
   margin-top: 40px;
 }
@@ -1673,7 +1683,7 @@ article:last-child .post-eof {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #c4ffff;
+  background: #714bda;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
