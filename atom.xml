@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-09-10T11:00:27.677Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo博客优化列表</title>
+    <link href="http://yoursite.com/2019/09/10/hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E5%88%97%E8%A1%A8/"/>
+    <id>http://yoursite.com/2019/09/10/hexo博客优化列表/</id>
+    <published>2019-09-10T08:48:39.000Z</published>
+    <updated>2019-09-10T11:00:27.677Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="ToDoList"><a href="#ToDoList" class="headerlink" title="ToDoList"></a>ToDoList</h2><ul><li><input disabled type="checkbox"> sitemap - google</li><li><input disabled type="checkbox"> sitemap - baidu</li><li><input disabled type="checkbox"> 数学公式支持 Latex mathjax 多样式</li><li><input disabled type="checkbox"> 人数统计</li><li><input disabled type="checkbox"> 字数统计</li><li><input disabled type="checkbox"> 分享功能</li><li><input disabled type="checkbox"> 对话功能 Voice</li><li><input disabled type="checkbox"> 留言板功能</li><li><input disabled type="checkbox"> google&amp;baidu 广告</li><li><input disabled type="checkbox"> 自动更新本地更改</li></ul><h2 id="Done"><a href="#Done" class="headerlink" title="Done"></a>Done</h2><ul><li><input checked disabled type="checkbox"> Blog备份到Git</li><li><input disabled type="checkbox"> 主题更换 - next</li></ul><h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul><li><a href="https://qq343509740.gitee.io/2018/07/16/Hexo/Hexo%20更换Next主题/#从Git上克隆主题" target="_blank" rel="noopener">Hexo 更换Next主题</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;ToDoList&quot;&gt;&lt;a href=&quot;#ToDoList&quot; class=&quot;headerlink&quot; title=&quot;ToDoList&quot;&gt;&lt;/a&gt;ToDoList&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt; sitemap
+      
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git备份hexo博客</title>
+    <link href="http://yoursite.com/2019/09/10/git%E5%A4%87%E4%BB%BDhexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2019/09/10/git备份hexo博客/</id>
+    <published>2019-09-10T08:38:37.000Z</published>
+    <updated>2019-09-10T10:53:49.764Z</updated>
+    
+    <content type="html"><![CDATA[<p>思路：</p><ul><li><del>在本git建立新分支blog，设置为default；</del></li><li>新建git目录，拷贝源码过去提交</li><li>拉取blog 源码到本地，将hexo文件夹覆盖目录，添加忽略，并提交；</li><li>查看github；</li></ul><p>参考链接：</p><ul><li><a href="http://www.yangbing.club/2019/06/29/save-hexo-source-post-with-git-branch/" target="_blank" rel="noopener">使用git分支保存hexo博客源码到github</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;思路：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;del&gt;在本git建立新分支blog，设置为default；&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;新建git目录，拷贝源码过去提交&lt;/li&gt;
+&lt;li&gt;拉取blog 源码到本地，将hexo文件夹覆盖目录，添加忽略，并提交；&lt;/li&gt;
+&lt;li&gt;查看
+      
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo搭建记录</title>
+    <link href="http://yoursite.com/2019/09/09/hexo%E6%90%AD%E5%BB%BA%E8%B5%B7%E6%AD%A5%E8%AE%B0%E5%BD%95/"/>
+    <id>http://yoursite.com/2019/09/09/hexo搭建起步记录/</id>
+    <published>2019-09-09T11:58:18.000Z</published>
+    <updated>2019-09-10T08:35:26.281Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>安装系统环境</li></ol><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">brew install node </span><br><span class="line">brew install npm</span><br></pre></td></tr></table></figure><ol start="2"><li><p>安装hexo</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-cli -g</span><br><span class="line">hexo -v</span><br></pre></td></tr></table></figure></li><li><p>hexo初始化</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">cd /目录/Blog/git_blog</span><br><span class="line">pwd</span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure></li></ol><p>打开 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></p><ol start="4"><li><p>连接Git</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"gitnametest"</span></span><br><span class="line">git config --global user.email <span class="string">"example@gmail.com"</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">"exsample@gmail.com"</span></span><br><span class="line">cat ~/.ssh/id_rsa.pub</span><br><span class="line"><span class="comment">// 拷贝</span></span><br><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure></li><li><p>修改_config.yml</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repository:</span> <span class="string">git@github.com:xxxname/xxxname.github</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure></li><li><p>写文章</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-deployer-git // 安装插件</span><br><span class="line"></span><br><span class="line">hexo new post &quot;article title&quot; // 新建文章</span><br></pre></td></tr></table></figure></li></ol><h4 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h4><ol><li><a href="https://segmentfault.com/q/1010000005624416" target="_blank" rel="noopener">Mac怎么安装npm?</a></li><li><a href="https://zhuanlan.zhihu.com/p/35668237" target="_blank" rel="noopener">超详细Hexo+Github博客搭建小白教程</a></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;安装系统环境&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
+    
+      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
