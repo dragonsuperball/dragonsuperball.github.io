@@ -1683,7 +1683,7 @@ article:last-child .post-eof {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f05cad;
+  background: #ffff4f;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2107,6 +2107,10 @@ article:last-child .post-eof {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.has-jax {
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 .category-all-page .category-all-title {
   text-align: center;

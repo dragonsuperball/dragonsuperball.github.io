@@ -55,18 +55,18 @@
   };
 </script>
 
-  <meta name="description" content="思路：  在本git建立新分支blog，设置为default； 新建git目录，拷贝源码过去提交 拉取blog 源码到本地，将hexo文件夹覆盖目录，添加忽略，并提交； 查看github；  参考链接：  使用git分支保存hexo博客源码到github">
+  <meta name="description" content="思路： 在本git建立新分支blog，设置为default； 新建git目录，拷贝源码过去提交 拉取blog 源码到本地，将hexo文件夹覆盖目录，添加忽略，并提交； 查看github； $a^{2}+b^{2}=c^{2}$">
 <meta name="keywords" content="hexo,git">
 <meta property="og:type" content="article">
 <meta property="og:title" content="git备份hexo博客">
 <meta property="og:url" content="http://yoursite.com/2019/09/10/git备份hexo博客/index.html">
 <meta property="og:site_name" content="Dragonの球">
-<meta property="og:description" content="思路：  在本git建立新分支blog，设置为default； 新建git目录，拷贝源码过去提交 拉取blog 源码到本地，将hexo文件夹覆盖目录，添加忽略，并提交； 查看github；  参考链接：  使用git分支保存hexo博客源码到github">
+<meta property="og:description" content="思路： 在本git建立新分支blog，设置为default； 新建git目录，拷贝源码过去提交 拉取blog 源码到本地，将hexo文件夹覆盖目录，添加忽略，并提交； 查看github； $a^{2}+b^{2}=c^{2}$">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-10T10:53:49.764Z">
+<meta property="og:updated_time" content="2019-09-11T02:35:00.711Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git备份hexo博客">
-<meta name="twitter:description" content="思路：  在本git建立新分支blog，设置为default； 新建git目录，拷贝源码过去提交 拉取blog 源码到本地，将hexo文件夹覆盖目录，添加忽略，并提交； 查看github；  参考链接：  使用git分支保存hexo博客源码到github">
+<meta name="twitter:description" content="思路： 在本git建立新分支blog，设置为default； 新建git目录，拷贝源码过去提交 拉取blog 源码到本地，将hexo文件夹覆盖目录，添加忽略，并提交； 查看github； $a^{2}+b^{2}=c^{2}$">
   <link rel="alternate" href="/atom.xml" title="Dragonの球" type="application/atom+xml">
   <link rel="canonical" href="http://yoursite.com/2019/09/10/git备份hexo博客/">
 
@@ -253,11 +253,19 @@
                 
               
 
-              <time title="创建时间：2019-09-10 16:38:37 / 修改时间：18:53:49" itemprop="dateCreated datePublished" datetime="2019-09-10T16:38:37+08:00">2019-09-10</time>
+              <time title="创建时间：2019-09-10 16:38:37" itemprop="dateCreated datePublished" datetime="2019-09-10T16:38:37+08:00">2019-09-10</time>
             </span>
           
             
 
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-09-11 10:35:00" itemprop="dateModified" datetime="2019-09-11T10:35:00+08:00">2019-09-11</time>
+              </span>
             
           
 
@@ -288,14 +296,16 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>思路：</p>
-<ul>
+        <p>思路：</p><ul>
 <li><del>在本git建立新分支blog，设置为default；</del></li>
 <li>新建git目录，拷贝源码过去提交</li>
 <li>拉取blog 源码到本地，将hexo文件夹覆盖目录，添加忽略，并提交；</li>
 <li>查看github；</li>
-</ul>
-<p>参考链接：</p>
+</ul><p>$a^{2}+b^{2}=c^{2}$</p><a id="more"></a>
+
+
+<script type="math/tex; mode=display">
+a^{2}+b^{2}=c^{2}</script><p>参考链接：</p>
 <ul>
 <li><a href="http://www.yangbing.club/2019/06/29/save-hexo-source-post-with-git-branch/" target="_blank" rel="noopener">使用git分支保存hexo博客源码到github</a></li>
 </ul>
@@ -624,6 +634,60 @@
 
 
 
+  
+
+  
+    
+      
+<script type="text/x-mathjax-config">
+    MathJax.Ajax.config.path['mhchem'] = '//cdn.jsdelivr.net/npm/mathjax-mhchem@3';
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        extensions: ['[mhchem]/mhchem.js'],
+      equationNumbers: {
+        autoNumber: 'AMS'
+      }
+    }
+  });
+
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') {
+          next = next.nextSibling;
+        }
+        if (next && next.nodeName.toLowerCase() === 'br') {
+          next.parentNode.removeChild(next);
+        }
+      }
+    });
+  });
+
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      element = document.getElementById(all[i].inputID + '-Frame').parentNode;
+      if (element.nodeName.toLowerCase() == 'li') {
+        element = element.parentNode;
+      }
+      element.classList.add('has-jax');
+    }
+  });
+</script>
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML', () => {
+    MathJax.Hub.Typeset();
+  }, window.MathJax);
+</script>
+
+    
   
 
   
