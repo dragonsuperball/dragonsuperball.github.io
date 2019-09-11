@@ -30,8 +30,8 @@
     exturl: false,
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
     copycode: {"enable":false,"show_result":false,"style":null},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
-    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    back2top: {"enable":true,"sidebar":true,"scrollpercent":true},
+    bookmark: {"enable":true,"color":"#222","save":"auto"},
     fancybox: false,
     mediumzoom: false,
     lazyload: false,
@@ -59,7 +59,7 @@
 <meta name="keywords" content="hexo,git,博客">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo搭建记录">
-<meta property="og:url" content="http://yoursite.com/2019/09/09/hexo搭建起步记录/index.html">
+<meta property="og:url" content="https://dragonsuperball.github.io/2019/09/09/hexo搭建起步记录/index.html">
 <meta property="og:site_name" content="Dragonの球">
 <meta property="og:description" content="安装系统环境 12brew install node brew install npm 安装hexo 12npm i hexo-cli -ghexo -v  hexo初始化 123456cd /目录/Blog/git_blogpwdhexo initnpm installhexo ghexo s">
 <meta property="og:locale" content="zh-CN">
@@ -68,7 +68,7 @@
 <meta name="twitter:title" content="hexo搭建记录">
 <meta name="twitter:description" content="安装系统环境 12brew install node brew install npm 安装hexo 12npm i hexo-cli -ghexo -v  hexo初始化 123456cd /目录/Blog/git_blogpwdhexo initnpm installhexo ghexo s">
   <link rel="alternate" href="/atom.xml" title="Dragonの球" type="application/atom+xml">
-  <link rel="canonical" href="http://yoursite.com/2019/09/09/hexo搭建起步记录/">
+  <link rel="canonical" href="https://dragonsuperball.github.io/2019/09/09/hexo搭建起步记录/">
 
 
 <script id="page-configurations">
@@ -164,6 +164,28 @@
       
       
         
+        <li class="menu-item menu-item-tags">
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-categories">
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+      
+      
+      
+        
         <li class="menu-item menu-item-archives">
       
     
@@ -205,10 +227,8 @@
     </header>
 
     
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
+  <div class="reading-progress-bar"></div>
+  <a class="book-mark-link book-mark-link-fixed" href="#"></a>
 
 
     <main id="main" class="main">
@@ -225,7 +245,7 @@
   
   
   <div class="post-block post">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/09/hexo搭建起步记录/">
+    <link itemprop="mainEntityOfPage" href="https://dragonsuperball.github.io/2019/09/09/hexo搭建起步记录/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="N9-Ball">
@@ -457,6 +477,11 @@
 
 
       </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+      
 
     </div>
   </aside>
@@ -621,7 +646,7 @@
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 <script src="/js/utils.js?v=7.4.0"></script><script src="/js/motion.js?v=7.4.0"></script>
 <script src="/js/schemes/pisces.js?v=7.4.0"></script>
-<script src="/js/next-boot.js?v=7.4.0"></script>
+<script src="/js/next-boot.js?v=7.4.0"></script><script src="/js/bookmark.js?v=7.4.0"></script>
 
 
 

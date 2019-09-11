@@ -30,8 +30,8 @@
     exturl: false,
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
     copycode: {"enable":false,"show_result":false,"style":null},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
-    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    back2top: {"enable":true,"sidebar":true,"scrollpercent":true},
+    bookmark: {"enable":true,"color":"#222","save":"auto"},
     fancybox: false,
     mediumzoom: false,
     lazyload: false,
@@ -59,7 +59,7 @@
 <meta name="keywords" content="hexo,git">
 <meta property="og:type" content="article">
 <meta property="og:title" content="git备份hexo博客">
-<meta property="og:url" content="http://yoursite.com/2019/09/10/git备份hexo博客/index.html">
+<meta property="og:url" content="https://dragonsuperball.github.io/2019/09/10/git备份hexo博客/index.html">
 <meta property="og:site_name" content="Dragonの球">
 <meta property="og:description" content="思路： 在本git建立新分支blog，设置为default； 新建git目录，拷贝源码过去提交 拉取blog 源码到本地，将hexo文件夹覆盖目录，添加忽略，并提交； 查看github； $a^{2}+b^{2}=c^{2}$">
 <meta property="og:locale" content="zh-CN">
@@ -68,7 +68,7 @@
 <meta name="twitter:title" content="git备份hexo博客">
 <meta name="twitter:description" content="思路： 在本git建立新分支blog，设置为default； 新建git目录，拷贝源码过去提交 拉取blog 源码到本地，将hexo文件夹覆盖目录，添加忽略，并提交； 查看github； $a^{2}+b^{2}=c^{2}$">
   <link rel="alternate" href="/atom.xml" title="Dragonの球" type="application/atom+xml">
-  <link rel="canonical" href="http://yoursite.com/2019/09/10/git备份hexo博客/">
+  <link rel="canonical" href="https://dragonsuperball.github.io/2019/09/10/git备份hexo博客/">
 
 
 <script id="page-configurations">
@@ -164,6 +164,28 @@
       
       
         
+        <li class="menu-item menu-item-tags">
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-categories">
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+      
+      
+      
+        
         <li class="menu-item menu-item-archives">
       
     
@@ -205,10 +227,8 @@
     </header>
 
     
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
+  <div class="reading-progress-bar"></div>
+  <a class="book-mark-link book-mark-link-fixed" href="#"></a>
 
 
     <main id="main" class="main">
@@ -225,7 +245,7 @@
   
   
   <div class="post-block post">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/10/git备份hexo博客/">
+    <link itemprop="mainEntityOfPage" href="https://dragonsuperball.github.io/2019/09/10/git备份hexo博客/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="N9-Ball">
@@ -442,6 +462,11 @@ a^{2}+b^{2}=c^{2}</script><p>参考链接：</p>
 
 
       </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+      
 
     </div>
   </aside>
@@ -606,7 +631,7 @@ a^{2}+b^{2}=c^{2}</script><p>参考链接：</p>
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 <script src="/js/utils.js?v=7.4.0"></script><script src="/js/motion.js?v=7.4.0"></script>
 <script src="/js/schemes/pisces.js?v=7.4.0"></script>
-<script src="/js/next-boot.js?v=7.4.0"></script>
+<script src="/js/next-boot.js?v=7.4.0"></script><script src="/js/bookmark.js?v=7.4.0"></script>
 
 
 
